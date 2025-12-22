@@ -15,28 +15,6 @@ This project develops a convolutional neural network (CNN) model that automatica
 - **Performance**: Achieves MAE of 10.38 months on RSNA dataset and 12.86 months on local Bainem dataset
 
 
-## Getting Started
-
-### Usage
-
-#### Training the Model
-
-```python
-python src/train.py --dataset rsna --epochs 30 --batch_size 32
-```
-
-#### Fine-tuning on Local Dataset
-
-```python
-python src/train.py --dataset bainem --pretrained_model path/to/model --epochs 30 --batch_size 8
-```
-
-#### Running the GUI Application
-
-```python
-python gui/app.py
-```
-
 ## Model Architecture
 
 ### Custom CNN Model
